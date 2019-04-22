@@ -1,0 +1,4 @@
+[submodule "viernes/theme_clean"]
+	path = viernes/theme_clean
+	url = git@github.com:viernes/theme_clean.git
+	branch = master
