@@ -1,0 +1,240 @@
+// Restore text-success color for website_sale "wizard" (checkout breadcrumb)
+// Hopefully remove this with improvements of saas-17
+.oe_website_sale .wizard .text-success {
+    color: #5CB85C;
+}
+
+#wrapwrap {
+    overflow-x: hidden;
+}
+
+// Backgrounds Images
+.bg-img-01 {
+    background-image: $o-theme-bg-img-01;
+    background-size: cover;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+.bg-img-02 {
+    background-image: linear-gradient( rgba(black, 0.8), rgba(black, 0.2) ), $o-theme-bg-img-02;
+    background-size: cover;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+.bg-img-03 {
+    background-image: linear-gradient( rgba(white, 0.6), rgba(white, 0.7) ), $o-theme-bg-img-03;
+    background-size: cover;
+    h1, h2, h3, h4, h5, h6, p {
+        color: gray('800') !important;
+    }
+    .fa, .text-muted {
+        color: theme-color('alpha') !important;
+    }
+}
+.bg-img-04 {
+    background-image: $o-theme-bg-img-04;
+    background-size: cover;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+.bg-img-05 {
+    background-image: $o-theme-bg-img-05;
+    background-size: cover;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+.bg-img-06 {
+    background-image: linear-gradient( rgba(black, 0.3), rgba(black, 0.75) ), $o-theme-bg-img-06;
+    background-size: cover;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+
+.bg-blur-01 {
+    background-image: $o-theme-bg-blur-01;
+    background-size: cover;
+    background-attachment: fixed;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: gray('800');
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+.bg-blur-02 {
+    background-image: $o-theme-bg-blur-02;
+    background-size: cover;
+    background-attachment: fixed;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+.bg-blur-03 {
+    background-image: $o-theme-bg-blur-03;
+    background-size: cover;
+    background-attachment: fixed;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+.bg-blur-04 {
+    background-image: $o-theme-bg-blur-04;
+    background-size: cover;
+    background-attachment: fixed;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+
+}
+.bg-blur-05 {
+    background-image: $o-theme-bg-blur-05;
+    background-size: cover;
+    background-attachment: fixed;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: white;
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+.bg-blur-06 {
+    background-image: $o-theme-bg-blur-06;
+    background-size: cover;
+    background-attachment: fixed;
+    .fa, h1, h2, h3, h4, h5, h6, p {
+        color: gray('800');
+    }
+    .text-muted {
+        color: theme-color('alpha');
+    }
+}
+
+// Backgrounds Gradients
+.bg_gradient_primary_down {
+    background-image: linear-gradient( rgba(theme-color('primary'), 0), rgba(theme-color('primary'), 1) ),;
+}
+
+.bg_gradient_primary_up {
+    background-image: linear-gradient( rgba(theme-color('primary'), 1), rgba(theme-color('primary'), 0) ),;
+}
+
+.bg_gradient_white_down_thumb {
+    background-image: linear-gradient( rgba(#ccc, 1), rgba(white, 0.5) ),;
+}
+
+.bg_gradient_white_down {
+    background-image: linear-gradient( rgba(white, 0), rgba(white, 0.5) ),;
+}
+
+.bg_gradient_white_up_thumb {
+    background-image: linear-gradient( rgba(white, 0.5), rgba(#ccc, 1) ),;
+}
+
+.bg_gradient_white_up {
+    background-image: linear-gradient( rgba(white, 0.5), rgba(white, 0) ),;
+}
+
+.bg_gradient_black_up {
+    background-image: linear-gradient( rgba(black, 0.5), rgba(black, 0) ),;
+}
+
+.bg_gradient_black_down {
+    background-image: linear-gradient( rgba(black, 0), rgba(black, 0.5) ),;
+}
+
+.bg_option_menu_gradient, .bg_option_menu_img {
+    height: 25px;
+    width: 120px;
+    border: 1px solid #ccc;
+}
+
+// Custom Padding
+.padding-l-r-8 {
+    padding: 0 8px;
+}
+
+.padding-l-r-16 {
+    padding: 0 16px;
+}
+
+.padding-l-r-32 {
+    padding: 0 32px;
+}
+
+// Price List
+.price {
+    font-size: 50px;
+}
+
+// popover
+.popover, .popover-title {
+    color: #555;
+}
+
+// hr
+hr {
+    border-top: 1px solid gray('700');
+}
+
+// Navbar
+
+.navbar .active {
+    background-color: theme-color('delta');
+}
+
+// Footer
+
+footer {
+    h1, h2, h3, h4, h5, h6 {
+        color: gray('200');
+        text-transform: uppercase;
+    }
+    p {
+        text-align: justify;
+    }
+
+    .fa:not(.fa-2x):not(.fa-3x):not(.fa-4x):not(.fa-5x) {
+        font-size: 18px;
+    }
+}
+
+@if $o-theme-layout == 'boxed' {
+    #wrapwrap {
+        @include media-breakpoint-up(md) {
+            margin: 0 auto;
+
+            .container {
+                max-width: 100%;
+            }
+        }
+    }
+}
