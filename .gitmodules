@@ -1,0 +1,3 @@
+[submodule "theme_clean"]
+	path = theme_clean
+	url = git@github.com:viernes/theme_clean.git
